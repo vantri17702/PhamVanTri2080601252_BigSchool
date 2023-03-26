@@ -7,13 +7,13 @@ namespace PhamVanTri2080601252.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class CreateTableCourse1 : IMigrationMetadata
+    public sealed partial class InitialModel : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateTableCourse1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303110732342_CreateTableCourse1"; }
+            get { return "202303180803327_InitialModel"; }
         }
         
         string IMigrationMetadata.Source
